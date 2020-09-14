@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1600118271 source:d:\ema\mis archivos\uni\algo i\final\tp3\main.cpp
+	<iostream>
+	"Punto.h"
+	"Segmento.h"
+	"Circulo.h"
+	"Conjunto.h"
+
+1600037303 source:d:\ema\mis archivos\uni\algo i\final\tp3\punto.cpp
+	"Punto.h"
+	<math.h>
+
+1600037303 d:\ema\mis archivos\uni\algo i\final\tp3\punto.h
+
+1600039027 source:d:\ema\mis archivos\uni\algo i\final\tp3\segmento.cpp
+	"Segmento.h"
+
+1600038019 d:\ema\mis archivos\uni\algo i\final\tp3\segmento.h
+	"Punto.h"
+
+1600040537 source:d:\ema\mis archivos\uni\algo i\final\tp3\circulo.cpp
+	"Circulo.h"
+	<math.h>
+
+1600040583 d:\ema\mis archivos\uni\algo i\final\tp3\circulo.h
+	"Punto.h"
+	"Segmento.h"
+
+1600118035 source:d:\ema\mis archivos\uni\algo i\final\tp3\conjunto.cpp
+	"Conjunto.h"
+
+1600116245 d:\ema\mis archivos\uni\algo i\final\tp3\conjunto.h
+

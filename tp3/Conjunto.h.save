@@ -1,0 +1,31 @@
+#ifndef CONJUNTO_H
+#define CONJUNTO_H
+
+template<typename E>
+class Conjunto
+{
+    public:
+        Conjunto();
+        void agregarElemento(const E & elemento);
+        bool conjuntoVacio()const;
+        bool existeElemento(const E & elemento)const;
+        int cantidadElementos()const;
+        bool operator==(Conjunto & otroConjunto)const;
+        void devolverConjunto(E&arrConjunto[],int cantElem);
+        void eliminarElemento(const E & elemento);
+        void unionConjuntos(Conjunto & otroConjunto);
+        void interseccionConjuntos(Conjunto & otroConjunto);
+        virtual ~Conjunto();
+
+    protected:
+
+    private:
+        struct Nodo
+        {
+            E elemento;
+            Nodo*siguiente;
+        };
+        Nodo*primero;
+};
+
+#endif // CONJUNTO_H
